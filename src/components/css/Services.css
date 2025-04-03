@@ -1,0 +1,30 @@
+.services-page-container {
+    width: 100%;
+    height: 95vh;
+    background-color: antiquewhite;
+}
+
+.services-carousel {
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 5vh;
+    background-color: aqua;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+    object-fit: fill;
+    display: flex;
+}
