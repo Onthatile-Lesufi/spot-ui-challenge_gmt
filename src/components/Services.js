@@ -5,6 +5,7 @@ import support from './assets/images/CustomerSupport.jpg';
 import socials from './assets/images/SocialMedia.jpg';
 import management from './assets/images/Management.jpg';
 import specialSupport from './assets/images/SpecialSupport.jpg';
+import { Button } from 'react-bootstrap';
 
 function Services () {
     return (
@@ -14,11 +15,6 @@ function Services () {
             <Carousel className='services-carousel'>
               <Carousel.Item className='carousel-item'>
                 <img src={admin}></img>
-                <Carousel.Caption>
-                    <button>lhkjl</button>
-                  <h3>First slide label</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='carousel-item'>
                 <img src={support}></img>
@@ -32,7 +28,9 @@ function Services () {
               <Carousel.Item className='carousel-item'>
                 <img src={specialSupport}></img>
               </Carousel.Item>
-            </Carousel>
+            </Carousel> 
+
+            <Button>Book a Consultation</Button>
         </div>
     );
 }
