@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./css/Home.css";
 import img from "./assets/images/thinkImg.jpeg";
 
 function Home() {

@@ -1,0 +1,25 @@
+#consultation-modal {
+    margin-top: 30vh;
+}
+
+.modal-header {
+    border: none;
+    text-align: center;
+}
+
+.modal-footer {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-button {
+    background-color: #ff9a36;
+    border-color: #ff9a36;
+}
+
+.action-button:active {
+    background-color: #424f87;
+    border-color: #424f87;
+}
