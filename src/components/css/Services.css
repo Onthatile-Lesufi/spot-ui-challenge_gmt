@@ -3,10 +3,10 @@
     height: fit-content;
 }
 
-#page-title {
-    margin-bottom: 5vh;
-    font-size: 5vh;
+.service-page-title {
     color: black;
+    margin-top: 4.5vh;
+    margin-bottom: 7vh;
 }
 
 .services-carousel {

@@ -5,6 +5,24 @@
 .modal-header {
     border: none;
     text-align: center;
+    padding-left: 2vw;
+    padding-right: 1.25vw;
+    margin-top: 1.5vh;
+}
+
+.modal-body {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.modal-input {
+    margin-top: 1.25vh;
+    margin-bottom: 1.25vh;
+}
+
+.modal-input-container {
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .modal-footer {
@@ -12,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2vh;
 }
 
 .action-button {
@@ -19,7 +38,82 @@
     border-color: #ff9a36;
 }
 
+.action-button:hover {
+    background-color: #ff9a36;
+    border-color: #ff9a36;
+}
+
 .action-button:active {
     background-color: #424f87;
     border-color: #424f87;
+}
+
+.contact-form-container {
+    top: -5vh;
+    height: fit-content;
+    background-color: #424f87;
+    padding-top: 5vh;
+    padding-bottom: 7.5vh;
+}
+
+.contact-page-title {
+    color: black;
+    margin-top: 4.5vh;
+    margin-bottom: 7vh;
+    /* font-size: 5vh; */
+}
+
+.contact-form {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.contact-input-group {
+    margin-bottom: 3vh;
+}
+
+.form-label {
+    color: white;
+}
+
+.form-check {
+    color: white;
+}
+
+#contact-select {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.contact-check {
+    height: 6vh;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    margin-bottom: 8vh;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-group {
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-group .form-text {
+    color: white;
+}
+
+.submit-button {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+#faq-container {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vh;
+    margin-top: 8vh;
 }

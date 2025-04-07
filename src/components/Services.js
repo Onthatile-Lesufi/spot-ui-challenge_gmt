@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 function Services () {
     return (
         <div className='services-page-container'>
-            <h2 id='page-title'>Our Services</h2>
+            <h2 className='service-page-title'>Our Services</h2>
 
             <Carousel className='services-carousel'>
               <Carousel.Item className='carousel-item'>
