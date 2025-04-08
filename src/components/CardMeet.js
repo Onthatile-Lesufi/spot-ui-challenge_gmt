@@ -3,8 +3,8 @@ import Card from "react-bootstrap/Card";
 
 function MeetCard({ imageLink, title, text }) {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={imageLink} />
+    <Card style={{ width: "18rem", borderRadius: "22px", marginTop: "2vh" }}>
+      <Card.Img variant="top" src={imageLink} style={{borderTopLeftRadius: "22px",borderTopRightRadius: "22px"}} />
       <Card.Body>
         <Card.Title style={{fontSize:'20px', fontWeight:'bold'}}>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>

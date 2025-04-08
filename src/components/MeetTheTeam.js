@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./CardMeet";
+import image1 from "./assets/images/Admin.jpg";
 import alice from "./assets/images/Alice.jpeg";
 import bob from "./assets/images/Bob.jpeg";
 import charlie from "./assets/images/Charlie.jpeg";
@@ -11,15 +12,48 @@ import hannah from "./assets/images/Hannah.jpeg";
 
 const MeetTheTeam = () => {
   const teamMembers = [
-    { imageLink: alice, name: "Alice Johnson", bio: "CEO" },
-    { imageLink: bob, name: "Bob Smith", bio: "Lead Developer" },
-    { imageLink: charlie, name: "Charlie Brown", bio: "Lead UX Designer" },
-    { imageLink: diana, name: "Diana Prince", bio: "Project Manager" },
-    { imageLink: ethan, name: "Ethan Hunt", bio: "PR Manager" },
-    { imageLink: fiona, name: "Fiona Gallagher", bio: "QA Engineer" },
-    { imageLink: george, name: "George Martin", bio: "Along for the ride Engineer" },
-    { imageLink: hannah, name: "Hannah Lee", bio: "Product Owner" },
+    {
+      imageLink: alice,
+      name: "Alice Johnson",
+      bio: "Dynamic CEO with a passion for innovation and a proven track record in tech leadership.",
+    },
+    {
+      imageLink: bob,
+      name: "Bob Smith",
+      bio: "Expert developer who thrives on building scalable applications and mentoring junior devs.",
+    },
+    {
+      imageLink: charlie,
+      name: "Charlie Brown",
+      bio: "UX visionary who designs clean, user-friendly interfaces that elevate digital experiences.",
+    },
+    {
+      imageLink: diana,
+      name: "Diana Prince",
+      bio: "Strategic project manager known for delivering complex projects on time and under budget.",
+    },
+    {
+      imageLink: ethan,
+      name: "Ethan Hunt",
+      bio: "Charismatic PR manager skilled in media relations, branding, and crisis communication.",
+    },
+    {
+      imageLink: fiona,
+      name: "Fiona Gallagher",
+      bio: "Detail-driven QA engineer who ensures every product meets the highest quality standards.",
+    },
+    {
+      imageLink: george,
+      name: "George Martin",
+      bio: "Versatile team player always ready to lend a hand, learn something new, or crack a joke.",
+    },
+    {
+      imageLink: hannah,
+      name: "Hannah Lee",
+      bio: "Product owner with a strong user-first mindset, driving features that make real impact.",
+    },
   ];
+  
 
   const gridStyles = {
     display: "grid",
@@ -30,8 +64,8 @@ const MeetTheTeam = () => {
   };
 
   return (
-    <div style={{ padding: "2rem", textAlign: "center" }}>
-      <h2 style={{color:'black'}}>Meet The Team</h2>
+    <div style={{ padding: "2rem", textAlign: "center", backgroundColor:'#5160A5', marginTop:'5vh'}}>
+      <h2 style={{color:'#ff9a36', fontWeight:'bolder'}}>Meet The Team</h2>
       <div style={gridStyles}>
         {teamMembers.map((member) => (
           <Card
