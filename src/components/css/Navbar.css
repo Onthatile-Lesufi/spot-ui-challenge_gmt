@@ -1,0 +1,13 @@
+.navbar-container {
+    height: 8.5vh;
+}
+
+.link-container {
+    float: right;
+}
+
+.navbar-link {
+    color: black;
+    text-decoration: none;
+    margin-right: 2vw;
+}
