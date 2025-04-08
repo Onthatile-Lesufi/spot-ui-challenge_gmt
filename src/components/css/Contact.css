@@ -48,7 +48,7 @@
     border-color: #424f87;
 }
 
-.contact-form-container {
+#contact-form-container {
     top: -5vh;
     height: fit-content;
     background-color: #424f87;
@@ -116,4 +116,14 @@
     padding-right: 10vw;
     padding-bottom: 10vh;
     margin-top: 8vh;
+}
+
+.faq-accordion {
+    text-align: left;
+}
+
+.accordion-body {
+    padding-top: 3vh;
+    padding-left: 2vw;
+    padding-right: 2.5vw;
 }

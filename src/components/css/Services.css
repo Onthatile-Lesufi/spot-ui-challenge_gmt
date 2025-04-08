@@ -64,3 +64,12 @@
     background-color: #424f87;
     border-color: #424f87;
 }
+
+.services-copywrite {
+    text-align: center;
+    font-size: 2vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3.5vh;
+    margin-bottom: 5vh;
+}
