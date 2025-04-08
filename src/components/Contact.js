@@ -32,7 +32,7 @@ function Contact () {
             </Modal>
 
             <h2 className='contact-page-title'>Contact Us</h2>
-            <div className='contact-form-container'>
+            <div id='contact-form-container'>
             
                 <Form className='contact-form'>
                     <Form.Group className="mb-3 contact-input-group" controlId="formBasicEmail">
@@ -85,29 +85,48 @@ function Contact () {
             <div id='faq-container'>
                 <h3 className='contact-page-title'>FAQ</h3>
 
-                <Accordion>
+                <Accordion className='faq-accordion'>
                     <Accordion.Item eventKey="0">
-                        <Accordion.Header>Accordion Item #1</Accordion.Header>
+                        <Accordion.Header>How do I make a purchase?</Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            To make a purchase, use one the following methods as followed:
+                            <ul>
+                                <li>Fill out the <a href='#contact-form-container'>above fields</a> with the relevant information and wait for one of our consultants to reach out with an invoice and the proceeding steps in the process.</li>
+                                <li>Book one of our free 30 minute consultations in which one of our consultants will match you with the relevant services for your specific needs.</li>
+                                <li>Contact us directly either by emailing us at <a href='mail.google.com'>example@example.co.za</a> or by calling one of our telecommunication specialists at 0000000000.</li>
+                            </ul>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
-                        <Accordion.Header>Accordion Item #2</Accordion.Header>
+                        <Accordion.Header>When will my payment method be charged</Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            Upon paying your initial invoice, billing periods will vary depending on your own specific situations and the decision made between you and the consultant attending to you.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="2">
+                        <Accordion.Header>Between what hours will your services be available?</Accordion.Header>
+                        <Accordion.Body>
+                            Thanks to the global nature of our consultants and call centers, Great Minds Technologies is operational at 24/7.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="3">
+                        <Accordion.Header>How do I unsubscribe from the Great Minds Technologies mailing list?</Accordion.Header>
+                        <Accordion.Body>
+                            To unsubscribe from our mailing list, use one the following methods as followed:
+                                <ul>
+                                    <li>Fill out the <a href='#contact-form-container'>above fields</a> with the relevant information (Select "Other..." under services) and wait for one of our consultants to reach out. From there, make your intention to unsubscribe clear. After receiving a confirmation email, you should no longer receive our miscellaneous emails.</li>
+                                    <li>Contact us directly either by emailing us at <a href='mail.google.com'>example@example.co.za</a> or by calling one of our telecommunication specialists at 0000000000.</li>
+                                </ul>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="4">
+                        <Accordion.Header>How will I be able to cancel my service plan?</Accordion.Header>
+                        <Accordion.Body>
+                            To cancel your service plan, use one the following methods as followed:
+                                <ul>
+                                    <li>Fill out the <a href='#contact-form-container'>above fields</a> with the relevant information (Select "Other..." under services) and wait for one of our consultants to reach out. From there, make your intention to cancel clear. After receiving a confirmation email, you should no longer be billed for our services and will no longer receive correspondence from our consultants.</li>
+                                    <li>Contact us directly either by emailing us at <a href='mail.google.com'>example@example.co.za</a> or by calling one of our telecommunication specialists at 0000000000.</li>
+                                </ul>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

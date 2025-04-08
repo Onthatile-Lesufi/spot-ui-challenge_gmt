@@ -1,4 +1,5 @@
 import "./css/Home.css";
+import { Link } from "react-router-dom";
 import img from "./assets/images/thinkImg.jpeg";
 
 function Home() {
@@ -14,9 +15,9 @@ function Home() {
             Professional virtual assistant services tailored to meet your
             business needs.
           </p>
-          <a href="contact.html" class="cta-button">
+          <Link to='/contact-us' class="cta-button">
             Request a Free Consultation
-          </a>
+          </Link>
         </div>
       </header>
 
