@@ -66,8 +66,8 @@ function Services () {
               </Carousel.Item>
             </Carousel> 
 
-            <h3></h3>
-            <p></p>
+            <h3>Book Your Consultation Now!</h3>
+            <p className='services-copywrite'>Great Minds Technologies&trade; provides robust and scalable services including: customer support, administrative support, social media management, project management and other more specialized services such bookkeeping, CRM management, event planning, and market research. With 24/7 service across a variety of fields and needs, Great Mind Technologies&trade; is a leading provider of digital and logistical support services. Book one of our free 30 minute consultations and decide whether Great Minds Technologies&trade; is the right fit for your digital and logistical needs.</p>
             <Link to='/contact-us'>
                 <Button id='consultation-button'>Book a Consultation</Button>
             </Link>

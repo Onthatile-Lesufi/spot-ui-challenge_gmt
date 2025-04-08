@@ -1,17 +1,24 @@
 import React from "react";
 import Card from "./CardMeet";
-import image1 from "./assets/images/Admin.jpg";
+import alice from "./assets/images/Alice.jpeg";
+import bob from "./assets/images/Bob.jpeg";
+import charlie from "./assets/images/Charlie.jpeg";
+import diana from "./assets/images/Diana.jpeg";
+import ethan from "./assets/images/Ethan.jpeg";
+import fiona from "./assets/images/Fiona.jpeg";
+import george from "./assets/images/George.jpeg";
+import hannah from "./assets/images/Hannah.jpeg";
 
 const MeetTheTeam = () => {
   const teamMembers = [
-    { imageLink: image1, name: "Alice Johnson", bio: "CEO" },
-    { imageLink: image1, name: "Bob Smith", bio: "Lead Developer" },
-    { imageLink: image1, name: "Charlie Brown", bio: "Lead UX Designer" },
-    { imageLink: image1, name: "Diana Prince", bio: "Project Manager" },
-    { imageLink: image1, name: "Ethan Hunt", bio: "PR Manager" },
-    { imageLink: image1, name: "Fiona Gallagher", bio: "QA Engineer" },
-    { imageLink: image1, name: "George Martin", bio: "Along for the ride Engineer" },
-    { imageLink: image1, name: "Hannah Lee", bio: "Product Owner" },
+    { imageLink: alice, name: "Alice Johnson", bio: "CEO" },
+    { imageLink: bob, name: "Bob Smith", bio: "Lead Developer" },
+    { imageLink: charlie, name: "Charlie Brown", bio: "Lead UX Designer" },
+    { imageLink: diana, name: "Diana Prince", bio: "Project Manager" },
+    { imageLink: ethan, name: "Ethan Hunt", bio: "PR Manager" },
+    { imageLink: fiona, name: "Fiona Gallagher", bio: "QA Engineer" },
+    { imageLink: george, name: "George Martin", bio: "Along for the ride Engineer" },
+    { imageLink: hannah, name: "Hannah Lee", bio: "Product Owner" },
   ];
 
   const gridStyles = {
