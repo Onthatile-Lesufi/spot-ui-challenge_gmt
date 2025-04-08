@@ -1,5 +1,6 @@
 import "./css/Home.css";
 import img from "./assets/images/thinkImg.jpeg";
+import img2 from "./assets/images/CustomerSupport.jpg";
 
 function Home() {
   return (
@@ -83,14 +84,20 @@ function Home() {
       </section>
 
       <section class="how-it-works">
+      <div className="how">
         <h2>How It Works</h2>
-        <ol>
-          <li>Contact us to discuss your requirements.</li>
+      
+       <li>Contact us to discuss your requirements.</li>
           <li>We assign a dedicated virtual assistant to handle your tasks.</li>
           <li>
             You focus on growing your business while we take care of the rest.
           </li>
-        </ol>
+       </div>
+       <div>
+      <img src={img2}/>
+       </div>
+         
+       
       </section>
     </div>
   );
