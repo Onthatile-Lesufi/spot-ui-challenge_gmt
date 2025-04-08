@@ -24,14 +24,15 @@ function Mission() {
           >
             <h1
               style={{
-                marginBottom: "5vh",
-                fontSize: "50px",
-                fontWeight: "bold",
+                color: '#ff9a36',
+                fontSize: '50px',
+                fontWeight: 'bolder',
+                marginBottom: '60px',
               }}
             >
               Our Mission
             </h1>
-            <p style={{ fontSize: "18px", letterSpacing: "1.5px" }}>
+            <p style={{ fontSize: "20px", letterSpacing: "1.5px" }}>
               Our mission is to help businesses and entrepreneurs streamline
               their operations by providing reliable, flexible, and efficient
               virtual assistant services
