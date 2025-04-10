@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import brandLogo from "./assets/images/SpotyUILogo.png";
 import './css/Navbar.css';
 
 function NavbarComponent() {
@@ -24,7 +25,7 @@ function NavbarComponent() {
       <Navbar expand="lg" className="navbar-container">
         <Container>
             <Link className="navbar-link" to="/">
-                <Navbar.Brand>Great Minds Technologies</Navbar.Brand>
+                <Navbar.Brand><img src={brandLogo} style={{width:'20vh'}} /></Navbar.Brand>
             </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

@@ -61,9 +61,9 @@ To get started with Spot on your local machine:
     npm start
     ```
 
-    ---
+---
 
-    ## License
+## License
 
-    This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. 
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. 
 
