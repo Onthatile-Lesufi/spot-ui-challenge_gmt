@@ -33,9 +33,7 @@ function Home() {
             managing time zones for international clients. Additionally, we
             provide seamless email management, keeping your inbox organized,
             filtering out spam, responding to inquiries, and prioritizing
-            messages that need your attention. We also take care of accurate and
-            efficient data entry, ensuring that your records, spreadsheets, and
-            databases are always up to date and error-free."**
+            messages that need your attention.
           </p>
         </div>
         <div class="service">
@@ -48,9 +46,7 @@ function Home() {
             phone, email, or live chat. Whether it’s answering frequently asked
             questions, troubleshooting issues, or providing detailed product or
             service information, we ensure that every customer interaction is
-            smooth and efficient. With our support, you can focus on growing
-            your business while we take care of maintaining strong relationships
-            with your customers.
+            smooth and efficient.
           </p>
         </div>
         <div class="service">
@@ -62,10 +58,7 @@ function Home() {
             ensuring your posts go live at the optimal times to maximize reach
             and interaction. We also engage with your audience by responding to
             comments, messages, and mentions to foster a loyal community.
-            Additionally, we develop growth strategies tailored to your brand,
-            including audience targeting, trend analysis, and collaboration
-            opportunities, helping you expand your online presence and maintain
-            a consistent, professional image.{" "}
+            {" "}
           </p>
         </div>
         <div class="service">
@@ -76,10 +69,7 @@ function Home() {
             assistants oversee task assignments, track deadlines, and ensure
             that all projects progress smoothly. We help coordinate team
             communication, streamline workflows, and provide regular updates so
-            that everyone stays aligned with project goals. Whether managing
-            small tasks or complex projects, we ensure efficiency and
-            accountability, allowing you to focus on strategic decision-making
-            while we handle the details.
+            that everyone stays aligned with project goals.
           </p>
         </div>
       </section>
